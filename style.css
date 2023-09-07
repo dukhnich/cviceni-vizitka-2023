@@ -1,8 +1,13 @@
 body {
     background-color: rgb(253, 214, 178);
+    margin: 0;
 }
 h1 {
-    color: rgb(100, 50, 0);
+    color: rgb(255, 255, 255);
+    /* text-transform: uppercase; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    text-shadow: 0 3px 20px rgb(65, 15, 70);;
 }
 .photo {
     border-radius: 50%;
@@ -10,4 +15,11 @@ h1 {
     width: 200px;
     float: left;
     margin-right: 20px;
+}
+.header {
+    background-image: url(/images/photo-1636116461481-4c3ec444c9f8.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 40px 200px;
 }
