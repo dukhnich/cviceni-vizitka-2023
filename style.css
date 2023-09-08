@@ -29,7 +29,7 @@ h2 {
     margin-right: 20px;
 }
 .header {
-    background-image: url(/images/bird.jpg);
+    background-image: url(images/bird.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
