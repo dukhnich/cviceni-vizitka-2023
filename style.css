@@ -1,16 +1,25 @@
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+}
 body {
-    background-color: rgb(253, 214, 178);
+    background-color: #F6D0CB;
     margin: 0;
 }
 h1 {
     color: rgb(255, 255, 255);
     font-family: 'Oswald', sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     text-shadow: 0 3px 20px rgb(65, 15, 70);;
 }
 h1 span {
     color: rgb(65, 15, 70);
     text-shadow: 0 3px 20px rgb(255, 255, 255);;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem; 
+    color: rgb(65, 15, 70);
 }
 .photo {
     border-radius: 50%;
@@ -28,4 +37,52 @@ h1 span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 10px 50px white;;
+}
+main {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+  margin: 0;
+}
+
+.technologie img {
+    width: 1em;
+    height: 1em;
+    object-fit: contain;
+}
+.technologie ol {
+    display: inline-block;
+    margin: auto;
+}
+
+.contakt {
+    background: rgb(65, 15, 70);
+    padding: 20px 40px;
+}
+.contakt ul {
+    text-align: center;
+}
+.contakt li {
+    display: inline-block;
+}
+
+.contakt a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+}
+.contakt a:hover,
+.contakt a:active {
+    color:  #F6D0CB;
 }
